@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - program that prints a line value with puts function
+ * main - prints "programming is like building a multilingual puzzle,
+ * followed by a newline
  * return 0 success
  */
 int main(void)
