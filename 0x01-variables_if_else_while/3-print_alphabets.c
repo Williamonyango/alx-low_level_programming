@@ -13,6 +13,9 @@ int main(void)
 	{
 		putchar(y);
 		y++;
+	}
+	while (c <= Z)
+	{
 		putchar(c);
 		c++;
 	}
