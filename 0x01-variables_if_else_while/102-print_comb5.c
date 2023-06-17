@@ -7,7 +7,7 @@
  * all numbers should be printed with two digits. 1 should be printed as 01
  * Return: 0 if success
  */
-int main(void);
+int main(void)
 {
 	int i, j;
 	int a, b, c, d;
