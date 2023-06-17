@@ -21,7 +21,7 @@ int main(void)
 		{
 			putchar(c + '0');
 			putchar(b + '0');
-			if (i < 89)
+			if (a < 89)
 			{
 				putchar(44);
 				putchar(32);
