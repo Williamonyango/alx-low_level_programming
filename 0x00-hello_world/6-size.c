@@ -10,5 +10,6 @@ int main(void)
 	printf("size of a long int: %i byte(s)\n", sizeof(long int));
 	printf("size of a long long int: %i byte(s)\n", sizeof(long long int));
 	printf("size of a float: %i bytes(s)\n", sizeof(float));
+	fprintf(stderr, "[stderr]: [Anything]\n");
 	return (0);
 }
