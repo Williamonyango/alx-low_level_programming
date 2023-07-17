@@ -32,7 +32,6 @@ int _strlen(char *s)
  * to the buffer pointed to by dest
  * @dest: pointer to the buffer in which we copy the string
  * @src: string to be copied
- *
  * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
@@ -62,6 +61,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
   dog_t *dog;
   int len1, len2;
+  
   len1 = _strlen(name);
   len2 = _strlen(owner);
   dog = malloc(sizeof(dog_t));
