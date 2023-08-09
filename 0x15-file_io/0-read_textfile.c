@@ -1,3 +1,5 @@
+#include <unistd.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
 /**
@@ -11,6 +13,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
   int fd;
+  char *buffer;
 
   ssize_t _read, _write;
 
@@ -19,7 +22,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
       return (0);
     }
   /*open the file*/
-  fd = open(filename, 0_RDONLY);
+  fd = open(filename, O_RDONLY);
   if(fd == -1)
     {
       return (0);
